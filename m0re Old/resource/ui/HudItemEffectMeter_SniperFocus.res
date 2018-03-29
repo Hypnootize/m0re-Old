@@ -29,10 +29,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
 		"font"			"TFfontSmall"
-		"xpos"			"-5"
+		"xpos"			"-15"
 		"ypos"			"20"
 		"zpos"			"6"
-		"wide"			"41"
+		"wide"			"60"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -61,4 +61,3 @@
 			
 	}
 }
-	
