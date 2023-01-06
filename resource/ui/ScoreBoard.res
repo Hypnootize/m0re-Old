@@ -46,6 +46,12 @@
 		"image"			"../hud/score_panel_blue_bg"
 		"image_lodef"	"../hud/score_panel_blue_bg_lodef"
 		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
+		
 	}
 	"RedScoreBG"
 	{
@@ -66,6 +72,10 @@
 		"image"			"../hud/score_panel_red_bg"
 		"image_lodef"	"../hud/score_panel_red_bg_lodef"
 		"scaleImage"		"1"
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"MainBG"
 	{
@@ -85,6 +95,11 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 75"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}								
 	"BlueTeamLabel"
 	{
@@ -103,6 +118,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}							
 	"BlueTeamScore"
 	{
@@ -124,6 +144,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"BlueTeamScoreDropshadow"
 	{
@@ -146,6 +171,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}							
 	"BlueTeamPlayerCount"
 	{
@@ -163,6 +193,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}							
 	"RedTeamLabel"
 	{
@@ -182,6 +217,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}							
 	"RedTeamScore"
 	{
@@ -203,6 +243,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"RedTeamScoreDropshadow"
 	{
@@ -225,6 +270,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}							
 	"RedTeamPlayerCount"
 	{
@@ -243,6 +293,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}							
 	"ServerLabel"
 	{
@@ -262,6 +317,11 @@
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"ServerTimeLeft"
 	{
@@ -281,6 +341,11 @@
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}							
 	"BluePlayerList"
 	{
@@ -303,6 +368,11 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"fgcolor"		"blue"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"RedPlayerList"
 	{
@@ -325,6 +395,11 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"red"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"VerticalLine"
 	{
@@ -346,6 +421,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"Spectators"
 	{
@@ -405,6 +485,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 50"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"ClassImage"
 	{
@@ -421,6 +506,11 @@
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"PlayerNameLabel"
 	{
@@ -441,6 +531,11 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}							
 	"HorizontalLine"
 	{
@@ -462,6 +557,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"PlayerScoreLabel"
 	{
@@ -482,6 +582,11 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}
 	"MapName"
 	{
@@ -501,6 +606,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 	}	
 		
 	"LocalPlayerDuelStatsPanel"
@@ -516,6 +626,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "0"
+		}
 
 		"DuelingLabel"
 		{
@@ -722,6 +837,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"wide" "0"
+		}
 
 		"KillsLabel"
 		{
@@ -1502,5 +1622,25 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}				
+	}		
+
+	"MvMScoreboard"
+	{
+		"ControlName"		"CTFHudMannVsMachineScoreboard"
+		"fieldName"			"MvMScoreboard"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"verbose"			"1"
+		
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}		
 }
